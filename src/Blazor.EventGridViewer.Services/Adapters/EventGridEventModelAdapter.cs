@@ -25,7 +25,7 @@ namespace Blazor.EventGridViewer.Services.Adapters
                 EventType = t.EventType,
                 Subject = t.Subject,
                 Id = t.Id,
-                EventTime = t.EventTime
+                EventTime = DateTime.Parse(t.EventTime).ToLocalTime().ToString()
             };
             return model;
         }
