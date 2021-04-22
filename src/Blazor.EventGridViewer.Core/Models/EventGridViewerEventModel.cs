@@ -22,7 +22,7 @@ namespace Blazor.EventGridViewer.Core.Models
         /// <summary>
         /// EventGrid Subject
         /// </summary>
-        public string Subject { get; set; }
+        public string Subject { get;  set; }
         /// <summary>
         /// EventGrid Event Time
         /// </summary>
